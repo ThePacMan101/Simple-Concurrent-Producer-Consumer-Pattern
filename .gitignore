@@ -1,3 +1,4 @@
 cods-lab5
 src/bin/*
 !src/bin/.gitkeep
+soma-lock-atom.c
