@@ -1,0 +1,3 @@
+cods-lab5
+src/bin/*
+!src/bin/.gitkeep
