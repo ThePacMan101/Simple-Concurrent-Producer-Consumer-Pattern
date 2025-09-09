@@ -1,7 +1,7 @@
 Thread : 0 esta executando...
+Thread : 1 esta executando...
 Extra : esta executando...
 soma = 0 
-Thread : 1 esta executando...
 soma = 1000 
 soma = 2000 
 soma = 3000 
@@ -174,7 +174,6 @@ soma = 169000
 soma = 170000 
 soma = 171000 
 soma = 172000 
-Thread : 0 terminou!
 soma = 173000 
 soma = 174000 
 soma = 175000 
@@ -203,6 +202,7 @@ soma = 197000
 soma = 198000 
 soma = 199000 
 Thread : 1 terminou!
+Thread : 0 terminou!
 soma = 200000 
 Extra : terminou!
 Valor de 'soma' = 200000
