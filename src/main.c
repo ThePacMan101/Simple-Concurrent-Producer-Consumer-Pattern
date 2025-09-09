@@ -26,10 +26,9 @@ void *ExecutaTarefa(void *arg){
             pthread_cond_wait(&pode_contar,&mutex);
         
         soma++;
-        if(soma%1000 == 0){
+        if(soma%1000 == 0)
             ja_printei = False;
-            pthread_cond_signal(&pode_printar);
-        }
+            
         
         pthread_cond_signal(&pode_printar);
         
