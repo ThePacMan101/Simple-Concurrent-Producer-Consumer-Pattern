@@ -51,6 +51,6 @@ To build the program, in src:
 ```
 To run the program, in src:
 ```
->>> bin/main <number of producer threads>
+>>> bin/main <number of writer threads>
 ```
 Note that for our purpose, there is always only one reader thread.
